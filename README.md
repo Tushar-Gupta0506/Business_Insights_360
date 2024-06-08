@@ -1,26 +1,75 @@
-# BUSINESS_INSIGHTS_360 POWER BI PROJECT
+# Business Insights 360
+## Explore the Live Dashboard
+Explore the live dashboard [Click here](https://app.powerbi.com/view?r=eyJrIjoiNGI2MDJlMmUtZjBlMC00YzU1LThhZTEtNzc3ZThjMjM2ZTdjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9). 
 
 ## Overview
-Business Insights 360 is a Power BI dashboard designed to empower AtliQ Hardware with actionable insights across Finance, Sales, Marketing, and Supply Chain.
+AtliQ Hardware, a leading global manufacturer, sought to leverage data-driven insights to enhance decision-making across various business domains. The project aimed to address challenges in extracting valuable insights from the provided data by creating reports and dashboards.
 
-## Key Insights:
+## Tools Utilized
+- **Power BI**: Main reporting and visualization tool.
+- **Power Query Editor**: Data preparation and transformation.
+- **DAX Language**: For creating calculated columns and measures.
+- **DAX Studio**: Used for report optimization.
+- **Project Management tools**: Employed for project coordination and tracking.
 
-**Finance View:** Analyzed crucial KPI indicators such as Net Sales, Gross Margin %, and Net Profit %. Created a comprehensive P & L Statement with YOY growth.
+## Power BI Techniques Covered
+- **Project Initiation Questions**
+- **Calculated Column Creation**
+- **Measure Creation using DAX Language**
+- **Data Modelling – Snowflake Schema**
+- **Utilizing Bookmarks for Visual Switching**
+- **Page Navigation with Buttons**
+- **Creating Date Tables using M Language**
+- **Dynamic Titles based on Applied Filters**
+- **Using KPI Indicators**
+- **Conditional Formatting in Visuals**
+- **Data Validation Techniques**
+- **Publishing Reports to Power BI Services**
 
-**Sales View:** Explored Customer Performance based on Net Sales and Gross Margin.
+## Business Terminology
+- Gross Price
+- Pre-invoice Deductions
+- Post-invoice Deductions
+- Net Invoice Sale
+- Gross Margin
+- Net Sales
+- Net Profit
+- COGS - Cost of Goods Sold
+- YTD - Year to Date
+- YTG - Year to Go
 
-**Marketing View:** Enhanced Marketing insights with segment performance and Net Profit metrics.
+## Functions Used
+- CALCULATE
+- ALLNOBLANKROW
+- RELATEDTABLE
+- SAMEPERIODLASTYEAR
+- SWITCH
+- HASONEVALUE
+- ISCROSSFILTERED
+- IF
+- DIVIDE
+- etc.
 
-**Supply Chain View:** Surveyed the variance of Actual Sales and Forecast accuracy.
+## Visualization Techniques
+Various visualization techniques were employed including:
+- Cards & KPIs
+- Table & Matrix
+- Filtering
+- Bookmark
+- Button
+- Tooltip
+- Drill Through
+- Conditional Formatting
+- Top N Slicers
+- Report Navigation
 
-**Executive View:** Examined Yearly Trends by Revenue, GM %, NP % & Market Share %. Listed the TOP 5 Customers & Products by Revenue Contribution.
-
-
-## Live Dashboard
-Explore the live dashboard [Project Link](https://app.powerbi.com/view?r=eyJrIjoiNGI2MDJlMmUtZjBlMC00YzU1LThhZTEtNzc3ZThjMjM2ZTdjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
-## Data Sources
-The dashboard seamlessly collects and utilizes data from two primary sources:
-
-**Excel/CSV Files**: Targets, Market Share data, and related information are sourced from Excel/CSV files.
-
-**MySQL Database**: Facts and Dimensions data are retrieved from a MySQL database.
+Charts used:
+- Donut
+- Scatter
+- Area
+- Ribbon
+- Waterfall
+- Line
+- Clustered Column
+## Linkedin Post
+[Click here](https://www.linkedin.com/posts/tushar-gupta0506_dashboard-screenshots-activity-7175121424594980864-Irfi?utm_source=share&utm_medium=member_desktop)
